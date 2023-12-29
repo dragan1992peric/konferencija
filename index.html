@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> OTKUP I PRODAJA VOZILA</title>
+	<link rel="stylesheet" href= "style.css">
+	<link rel="preconnect" href= "https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?
+	family=Poppins:wght@100;200;300;400;600;700&display=swap"
+	rel= "stylesheet">
+	<link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+<section class="header">
+<nav>
+<a href="index.html"><img></a>
+	<div class="nav-links" id= "navLinks">
+	<i class="fa fa-times" onclick="hideMenu()"></i>
+		<ul>
+			<li><a href="">половна аута</a></li>
+			<li><a href="">нова аута</a></li>
+			<li><a href="">камиони</a></li>
+			<li><a href="">аутобуси</a></li>
+			<li><a href="">мотори</a></li>
+		</ul>
+	</div>
+	<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<div class="text-box">
+	<h1>ОТКУП ВОЗИЛА</h1>
+	<p>купујемо по најбољим ценама у региону а и шире, јер, СРБИЈА ДО ТОКИЈА, итд</p>
+	<a href="tel:0601162050" class="hero-btn">ПОЗОВИТЕ</br>0601162050</a>
+</div>
+</section>
+
+
+<section class="course">
+	<h1>Услуге Које Нудимо</h1>
+	<p>позовите за све што вас занима а и не занима, имамо ми времена на бацање</p>
+	
+	<div class="row">
+		<div class="course-col">
+			<h3>ОТКУП</h3>
+			<p>откупљујемо све врсте моторних возила, ваше је само да нам га продате</p>
+		</div>
+		<div class="course-col">
+			<h3>ПРОДАЈА</h3>
+			<p>продајемо половна исправна возила, углавном, остало што имамо на стању су половни делови</p>
+		</div>
+		<div class="course-col">
+			<h3>ШЛЕП СЛУЖБА</h3>
+			<p>вршимо услуге шлеповања од Чикагоа до Токијоа, наравно цена зависи од даљине, зато позовите, интересујте се</p>
+		</div>
+	</div>
+
+</section>
+
+<section class="campus">
+	<h1>ТЈУНИРАЊЕ И МОДОВАЊЕ</h1>
+	<p>Вршимо све врсте модификација на постојећим исправним возилима, не дајемо гаранцију да ће ауто остати исправно </p>
+	
+	<div class="row">
+		<div class="campus-col">
+		<img src= "images/treci.jpg">
+			<div class="layer">
+				<h3>РЕМАП</h3>
+			</div>
+		</div>
+		<div class="campus-col">
+		<img src= "images/dva.webp">
+			<div class="layer">
+				<h3>СТЕЈЏ 1</h3>
+			</div>
+		</div>
+		<div class="campus-col">
+		<img src= "images/amg.jpg">
+			<div class="layer">
+				<h3>СТЕЈЏ 2</h3>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="testimonials">
+	<h1>УТИСЦИ КЛИЈЕНАТА</h1>
+	<p>Ако сте задовољни, реците свима. Ако сте незадовољни, реците нама</p>
+	<div class="row">
+		<div class="testimonials-col">
+			<img src="images/aleksandar.jpg">
+			<div>
+				<p>Јако смо задовољни ценом којом смо добили, с обзиром на то да је од тренутка позива до тренутка продаје протекло само 2 сата.</p>
+				<h3>Александар Јовановић</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+		</div>
+		<div class="testimonials-col">
+			<img src="images/jovan.jpg">
+			<div>
+				<p>Мени се јако журило, и након разговора и неколико слика послатих путем вибера, добио сам понуду коју сам одлучио да прихватим, а након чега су људи по возило дошли након 4 сата, од Београда до Крушевца.</p>
+				<h3>Јован Митровић</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="cta">
+	<h1>ГДЕ ГОД У СРБИЈИ ДА СЕ НАЛАЗИТЕ <br> МИ СМО ТУ ЗА ВАС</h1>
+	<a href="tel:0601162050" class="hero-btn">КОНТАКТИРАЈТЕ НАС</a>
+</section>
+
+<section class="footer">
+	<h4>О нама</h4>
+	<p>а шта да кажемо, када лажни ривјуови на саjту све говоре. Срећно.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+</section>
+
+
+
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	function showMenu() {
+		navLinks.style.right = "0";
+	}
+	function hideMenu() {
+		navLinks.style.right = "-250px";
+	}
+
+</script>
+
+
+</body>
+
+
+</html>
